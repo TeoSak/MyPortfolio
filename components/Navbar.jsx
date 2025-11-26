@@ -110,7 +110,7 @@ export const Navbar = () => {
                     type="button"
                     className="bg-white text-black-700 mt-5  md:inline  text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
                 >
-                    <Link href={'/sample-resume.pdf'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                    <Link href={'/sakarelos-cv.pdf'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                         <span className="mr-2 text-black-700 font-medium">Download CV</span>
                         <Image className="w-3 h-3" src={assets.arrow_icon} alt="arrow" />
                     </Link>
