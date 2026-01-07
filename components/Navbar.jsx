@@ -51,7 +51,7 @@ export const Navbar = () => {
 
                     className="bg-white text-black-700 border border-black md:inline hidden text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
                 >
-                    <Link href={'/sakarelos-cv.pdf'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                    <Link href={'/TheodorosSakarelosCV.pdf'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                         <span className="mr-2 text-black-700 font-medium">{lang === 'en' ? 'Download CV' : 'Λήψη CV'}</span>
                         <Image className="w-3 h-3" src={assets.arrow_icon} alt="arrow" />
                     </Link>
@@ -110,7 +110,7 @@ export const Navbar = () => {
                     type="button"
                     className="bg-white text-black-700 mt-5  md:inline  text-sm hover:opacity-90 active:scale-95 transition-all w-40 h-11 rounded-full"
                 >
-                    <Link href={'/sakarelos-cv.pdf'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+                    <Link href={'/TheodorosSakarelosCV.pdf'} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
                         <span className="mr-2 text-black-700 font-medium">Download CV</span>
                         <Image className="w-3 h-3" src={assets.arrow_icon} alt="arrow" />
                     </Link>
